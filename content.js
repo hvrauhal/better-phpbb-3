@@ -18,5 +18,11 @@
     });
   }
   $("#page-footer").prepend($('#page-header .navbar').clone().find('#nav-breadcrumbs').remove().end())
+  $('.topiclist.topics .row').each(function (i, e) {
+    var $row = $(e);
+    var href = $row.find('.icon_topic_latest').parent('a').attr('href');
+    var $dl = $row.find('dl').remove();
+    $row.append($('<a>').attr('href', href).append($dl));
+  });
 })();
 
