@@ -67,3 +67,7 @@
 #phpbb #page-footer .navbar {
     margin-bottom: 4px;
 }
+
+#phpbb h2 {
+    font-size: 1.5em;
+}
