@@ -1,0 +1,65 @@
+#phpbb .imageset.site_logo {
+    background-image: none;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+#phpbb .action-bar .open_all_in_tabs {
+    float: right;
+    font-size: 11px;
+    margin-top: 3px;
+    margin-right: 12px;
+    text-align: right;
+    width: auto;
+}
+#phpbb .action-bar.bottom .open_all_in_tabs {
+    margin-top: 0;
+}
+
+#phpbb #quick-links {
+    display: inline-block;
+    visibility: hidden;
+}
+
+#phpbb #quick-links .dropdown {
+    display: block;
+    visibility: visible;
+    position: inherit;
+    top: 0;
+    margin-right: 0;
+    z-index: inherit;
+    /* top: inherit; */
+    border: none;
+    padding: 0;
+}
+
+#phpbb #quick-links a.responsive-menu-link.dropdown-trigger.dropdown-toggle {
+    display: none;
+}
+
+#phpbb #quick-links a.responsive-menu-link.dropdown-trigger.dropdown-toggle::before {
+    display:  none;
+}
+
+#phpbb #quick-links .pointer {
+    display: none;
+}
+
+#phpbb #quick-links a.responsive-menu-link.dropdown-trigger.dropdown-toggle {
+    width: 0;
+    height: 0;
+}
+
+#phpbb #quick-links .dropdown-contents {
+    border: none;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+#phpbb #quick-links .dropdown-contents li {
+    display: inline-block;
+    border: none;
+    padding-right: 6px;
+}
