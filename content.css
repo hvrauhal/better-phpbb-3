@@ -63,3 +63,7 @@
     border: none;
     padding-right: 6px;
 }
+
+#phpbb #page-footer .navbar {
+    margin-bottom: 4px;
+}

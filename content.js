@@ -12,5 +12,6 @@
 
   $(".action-bar").append('<a class="open_all_in_tabs" href="#">Open all topics in tabs</a>');
   $(".open_all_in_tabs").click(open_all_in_tabs);
+  $("#page-footer").prepend($('#page-header .navbar').clone().find('#nav-breadcrumbs').remove().end())
 })();
 
