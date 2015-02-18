@@ -71,3 +71,8 @@
 #phpbb h2 {
     font-size: 1.5em;
 }
+
+#phpbb .postprofile {
+    float: left;
+    border-width: 0 1px 0 0;
+}
