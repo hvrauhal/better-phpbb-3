@@ -75,4 +75,14 @@
 #phpbb .postprofile {
     float: left;
     border-width: 0 1px 0 0;
+    width: 12%;
+}
+
+#phpbb .postbody {
+    padding-left: 1rem;
+    width: 85%;
+}
+#phpbb .postbody img {
+    max-width: 100%;
+    max-height: 95vh;
 }
